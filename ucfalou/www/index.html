@@ -15,7 +15,8 @@
   See the License for the specific language governing permissions and
   limitations under the License
 -->
-
+ <script src=”js/leaflet.js”></script>
+   <script src=”js/leafletFunction.js”></script>
 <html lang="en">
   <head>
   
@@ -165,8 +166,9 @@
 var mymap=L.map('mapid').setView([51.505,-0.09],13);
 //loadthetiles
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw',{ maxZoom:18, attribution:'Mapdata&copy;<a href="http://openstreetmap.org">OpenStreetMap</a>contributors,'+ '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, '+ 'Imagery©<a href="http://mapbox.com">Mapbox</a>', id:'mapbox.streets' }).addTo(mymap); 
-</script>
+</script> 
+   
 </body>
  </html>
-  <script src=”js/leaflet.js”></script>
+ 
 </html>
